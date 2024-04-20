@@ -1,5 +1,5 @@
 {
-  "name": "product-regitration",
+  "name": "product-json",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:productRegitration": "node dist/product-regitration/server/server.mjs"
+    "serve:ssr:ProductJson": "node dist/product-json/server/server.mjs"
   },
   "private": true,
   "dependencies": {

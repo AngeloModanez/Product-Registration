@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "productRegitration": {
+    "ProductJson": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/product-regitration",
+            "outputPath": "dist/product-json",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -73,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "productRegitration:build:production"
+              "buildTarget": "ProductJson:build:production"
             },
             "development": {
-              "buildTarget": "productRegitration:build:development"
+              "buildTarget": "ProductJson:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "productRegitration:build"
+            "buildTarget": "ProductJson:build"
           }
         },
         "test": {
@@ -109,6 +109,6 @@
     }
   },
   "cli": {
-    "analytics": "42d4f28b-0041-45bb-ad26-cf7ef9e9649c"
+    "analytics": "b7c51318-ae73-452d-9ec2-1527f1eb09cc"
   }
 }
